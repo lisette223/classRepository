@@ -75,8 +75,21 @@
                     <view key="view" contentMode="scaleToFill" id="zYE-lt-swh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carlos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAs-4T-xqt">
+                                <rect key="frame" x="0.0" y="108" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ihv-9T-dGY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ihv-9T-dGY" firstAttribute="trailing" secondItem="yAs-4T-xqt" secondAttribute="trailing" id="8Ag-LZ-ZV0"/>
+                            <constraint firstItem="yAs-4T-xqt" firstAttribute="top" secondItem="Ihv-9T-dGY" secondAttribute="top" constant="20" id="LjC-Hb-hCh"/>
+                            <constraint firstItem="yAs-4T-xqt" firstAttribute="leading" secondItem="zYE-lt-swh" secondAttribute="leading" id="bxX-VU-S9e"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Carlos" image="tray.circle.fill" catalog="system" id="BJs-zG-Ybd"/>
                     <navigationItem key="navigationItem" id="XBv-rv-Anm"/>
@@ -92,8 +105,21 @@
                     <view key="view" contentMode="scaleToFill" id="Dbc-4R-KMM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmg-zu-vQC">
+                                <rect key="frame" x="0.0" y="108" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Hbu-xe-fet"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kmg-zu-vQC" firstAttribute="leading" secondItem="Dbc-4R-KMM" secondAttribute="leading" id="59F-E8-5Xk"/>
+                            <constraint firstItem="Hbu-xe-fet" firstAttribute="trailing" secondItem="Kmg-zu-vQC" secondAttribute="trailing" id="ao5-xq-RcJ"/>
+                            <constraint firstItem="Kmg-zu-vQC" firstAttribute="top" secondItem="Hbu-xe-fet" secondAttribute="top" constant="20" id="seV-sj-osR"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Christian" image="arrow.up.doc.on.clipboard" catalog="system" id="oyk-PW-PkH"/>
                     <navigationItem key="navigationItem" id="gaM-I9-Bk4"/>
@@ -420,8 +446,21 @@
                     <view key="view" contentMode="scaleToFill" id="6L1-qb-iZX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tatiana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ex-Yf-Y75">
+                                <rect key="frame" x="0.0" y="108" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="DaM-KH-vyA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Ex-Yf-Y75" firstAttribute="leading" secondItem="DaM-KH-vyA" secondAttribute="leading" id="fXO-be-VrE"/>
+                            <constraint firstItem="3Ex-Yf-Y75" firstAttribute="top" secondItem="DaM-KH-vyA" secondAttribute="top" constant="20" id="iFa-ky-oMx"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ex-Yf-Y75" secondAttribute="trailing" id="klp-03-vSL"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Jeffrey" image="arrow.up.doc.on.clipboard" catalog="system" id="XIe-Es-gxY"/>
                     <navigationItem key="navigationItem" id="epb-dG-QTh"/>
