@@ -22,9 +22,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Juice-WRLD" translatesAutoresizingMaskIntoConstraints="NO" id="hTs-2o-BKf">
+                                <rect key="frame" x="68" y="245" width="282" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="61a-p4-r7J"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="1" green="0.48853654149999998" blue="0.4901909216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="61a-p4-r7J" firstAttribute="trailing" secondItem="ux0-2E-LYN" secondAttribute="trailing" id="0B8-am-ACf"/>
                             <constraint firstItem="ux0-2E-LYN" firstAttribute="top" secondItem="61a-p4-r7J" secondAttribute="top" constant="20" id="IQy-jL-HOo"/>
@@ -36,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r8U-Mi-trn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-781" y="-2676"/>
+            <point key="canvasLocation" x="-781.15942028985512" y="-2676.5625"/>
         </scene>
         <!--Bradley-->
         <scene sceneID="tne-QT-ifu">
@@ -796,6 +801,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Juice-WRLD" width="2000" height="1270"/>
         <image name="arrow.up.doc.on.clipboard" catalog="system" width="116" height="128"/>
         <image name="doc.fill.badge.plus" catalog="system" width="122" height="128"/>
         <image name="doc.richtext.fill.ar" catalog="system" width="115" height="128"/>
